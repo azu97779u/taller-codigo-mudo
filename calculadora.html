@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Impuestos</title>
+</head>
+<body>
+    <h1>🧮 Calculadora de Impuestos</h1>
+    
+    <label>Monto Base: <input type="number" id="monto" value="100"></label><br>
+    <label>Tasa Base: <input type="number" id="tasa" value="10"></label><br>
+    <label>Región: 
+        <select id="region">
+            <option value="SV">El Salvador (+13)</option>
+            <option value="MX">México (+0)</option>
+            <option value="US">EE.UU (+0)</option>
+        </select>
+    </label><br>
+    <button onclick="calcular()">Calcular</button>
+    
+    <h2 id="resultado"></h2>
+
+    <script>
+        function calcularImpuesto(montoBase, tasaBase, region) {
+            const PORCENTAJE_DESCUENTO = 0.15;
+            const AJUSTE_REGIONAL_SV = 13;
+            
+            const descuento = tasaBase * PORCENTAJE_DESCUENTO;
+            
+            if (region === "SV") {
+                return (montoBase - descuento) + AJUSTE_REGIONAL_SV;
+            } else {
+                return montoBase - descuento;
+            }
+        }
+
+        function calcular() {
+            const monto = parseFloat(document.getElementById('monto').value);
+            const tasa = parseFloat(document.getElementById('tasa').value);
+            const region = document.getElementById('region').value;
+            
+            const resultado = calcularImpuesto(monto, tasa, region);
+            document.getElementById('resultado').textContent = `Resultado: ${resultado}`;
+        }
+    </script>
+</body>
+</html>
