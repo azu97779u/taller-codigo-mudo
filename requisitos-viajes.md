@@ -140,6 +140,6 @@ Cada historia cumple con los criterios del modelo INVEST:
 
 ---
 
-**Entregado por:** [Nombre del Equipo]
-**Repositorio:** [URL del repositorio Git]
+**Entregado por:** [Gabriela Azucena]
+**Repositorio:** [https://github.com/azu97779u/taller-codigo-mudo]
 **Comando de entrega:** `git commit -m "feat: requirements verified"`
