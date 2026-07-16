@@ -5,7 +5,7 @@
 **Fecha:** 15 de julio de 2026  
 **Autor:** Gabriela Azucena  
 **Estado:** Aprobado  
-**Repositorio:** [URL del repositorio]
+**Repositorio:** [https://github.com/azu97779u/taller-codigo-mudo/tree/main]
 
 ---
 
@@ -385,7 +385,7 @@ Una vez redactado el documento, se realizará una sesión de **Sign-off** (Aprob
 
 ## 📋 Instrucciones de Uso
 
-1. Reemplaza `[Ramon]` y `[]` con la información real de tu proyecto.
+1. Reemplaza `[Ramon]` y `[https://github.com/azu97779u/taller-codigo-mudo/tree/main]` con la información real de tu proyecto.
 2. Ajusta las tecnologías según la decisión del equipo (Node.js + React, Python + Django, etc.).
 3. Agrega o modifica Historias de Usuario según sea necesario.
 4. Completa la Matriz de Trazabilidad a medida que avance el desarrollo.
