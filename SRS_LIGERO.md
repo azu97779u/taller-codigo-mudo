@@ -3,7 +3,7 @@
 
 **Versión:** 1.0  
 **Fecha:** 15 de julio de 2026  
-**Autor:** [Nombre del Equipo]  
+**Autor:** Gabriela Azucena  
 **Estado:** Aprobado  
 **Repositorio:** [URL del repositorio]
 
@@ -341,10 +341,10 @@ Una vez redactado el documento, se realizará una sesión de **Sign-off** (Aprob
 
 | Rol | Nombre | Fecha de Aprobación | Firma |
 |-----|--------|---------------------|-------|
-| **Cliente** | [Nombre del cliente] | [Fecha] | [Firma digital] |
-| **Líder Técnico** | [Nombre del líder técnico] | [Fecha] | [Firma digital] |
-| **Equipo QA** | [Nombre del tester líder] | [Fecha] | [Firma digital] |
-| **Product Owner** | [Nombre del PO] | [Fecha] | [Firma digital] |
+| **Cliente** | [Nombre del cliente] | 15/07/2026 | [Firma digital] |
+| **Líder Técnico** | Gabriela Azucena | 15/07/2026 | [Firma digital] |
+| **Equipo QA** | Gabriela Azucena | 15/07/2026 | [Firma digital] |
+| **Product Owner** | Gabriela Azucena | 15/07/2026 | [Firma digital] |
 
 **Nota importante:** Cualquier requisito solicitado después de la aprobación se considera un **Cambio de Alcance (Change Request)** y deberá gestionarse mediante un proceso formal de evaluación de impacto (costo, tiempo, recursos).
 
@@ -374,7 +374,7 @@ Una vez redactado el documento, se realizará una sesión de **Sign-off** (Aprob
 
 | Versión | Fecha | Autor | Descripción de Cambios |
 |---------|-------|-------|------------------------|
-| 1.0 | 15/07/2026 | [Azucena] | Versión inicial del SRS Ligero aprobada |
+| 1.0 | 15/07/2026 | Gabriela Azucena | Versión inicial del SRS Ligero aprobada |
 | [x.x] | [Fecha] | [Autor] | [Descripción del cambio] |
 
 ---
@@ -385,7 +385,7 @@ Una vez redactado el documento, se realizará una sesión de **Sign-off** (Aprob
 
 ## 📋 Instrucciones de Uso
 
-1. Reemplaza `[Nombre del Equipo]`, `[URL del repositorio]`, `[Nombre del cliente]`, etc., con la información real de tu proyecto.
+1. Reemplaza `[Ramon]` y `[]` con la información real de tu proyecto.
 2. Ajusta las tecnologías según la decisión del equipo (Node.js + React, Python + Django, etc.).
 3. Agrega o modifica Historias de Usuario según sea necesario.
 4. Completa la Matriz de Trazabilidad a medida que avance el desarrollo.
